@@ -1,0 +1,15 @@
+.form {
+    margin: 40px;
+    &__control {
+        margin-bottom: 16px;
+        font-family: sans-serif;
+    }
+
+    &__sumbmit {
+        cursor: pointer;
+
+        &--sending {
+            cursor: wait;
+        }
+    }
+}
